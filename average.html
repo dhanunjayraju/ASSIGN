@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Average Marks</title>
+<style>
+ table,th,td{
+ border: 1px solid black;
+ }
+ </style>
+</head>
+<body>
+<table style="width:30%">
+	<tr>
+		<th>Subject name</th>
+		<th> Marks</th>
+	</tr>
+	<tr>
+		<td>JAVA</td>
+		<td>80</td>
+	</tr>
+	<tr>
+		<td>PYTHON</td>
+		<td>90</td>
+	</tr>
+	<tr>
+		<td>CNS</td>
+		<td>70</td>
+	</tr>
+</table>
+<p id="demo"></p>
+<script>
+  var JAVA=80;
+  var PYTHON=90;
+  var CNS=70;
+  var TOTAL=240;
+  var avg=TOTAL/3;
+		document.getElementById("demo").innerHTML = "The average value is" + avg ; 
+</script>
+</body>
+</html>
