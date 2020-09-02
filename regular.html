@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Regular Expression</title>
+</head>
+<body>
+	<h2>THE case sencity word can be printed as: conduria</h2>
+	<p id="demo"></p>
+	<button onclick ="reg()">click</button>
+	<script>
+		function reg() {
+		var name = "CONDURIA";
+		var pattern = /conduria/i;
+		var value = name.match(pattern);
+		document.getElementById("demo").innerHTML = value;
+		}
+	</script>
+</body>
+</html>
