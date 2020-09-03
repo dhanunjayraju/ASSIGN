@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to get a time-based greeting:</p>
+
+<button onclick="myFunction()">click to see o/p</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var a= 12;
+  var ans;
+  if (a>=10 && a<=100) {
+    ans= "number exsists";
+  } else {
+	ans ="nuber does not exists";
+  }
+  document.getElementById("demo").innerHTML = ans;
+}
+</script>
+
+</body>
+</html>
+
