@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>hide function</title>
+  <style>
+  p {
+    font-weight: bold
+	}
+	img{
+	float:left;
+	margin:30px 60px;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+ 
+<button>click to hide the image</button>
+<p>hai this is image</p>
+<img src="https://github.com/dhanunjayraju/ASSIGN/commit/94b3f08aee256f7a0a0cbb40e770783463fd8efc" alt="image" width="160" height="120">
+ 
+<script>
+$( "button" ).click(function() {
+  $( "p" ).hide( "slow" );
+	$( "img" ).hide( "slow" );
+
+});
+</script>
+ 
+</body>
+</html>
