@@ -1,0 +1,6 @@
+step:1 In the introduction need to updated for reference it will be used.
+step:2 If we click any wrong button so that if it show any popup button that would be helpful
+step:3 The color used when we copy the text is not intractive may be the color should be blue so that it would be intractive
+step:4 When we click experiment button it showing languages select button only and if it shows some more buttons like type of test we want take etc
+step:5 The procedure and quizes button should be intractive so that we can use it.In quizes section I didnt see any quiz
+The introduction button which clicks on computer lingustics should be be there so that it is easy to understand and it should be intractive
